@@ -2,4 +2,35 @@
 
 /* 回答はここに書いてね */
 
+.clearfix:after{
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.q2{
+  background-color: #eff3f4;
+  width: 940px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.left-image{
+  margin-bottom: 10px;
+  margin-right: 20px;
+  float: left;
+}
+
+.text{
+  font-size: 18px;
+  line-height: 22px;
+  word-break: break-all;
+}
+
+.right-image{
+  margin-bottom: 10px;
+  margin-left: 20px;
+  float: right;
+}
+
 /* 回答はここに書いてね */
