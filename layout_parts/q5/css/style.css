@@ -1,8 +1,6 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-
-
 .q5p{
   background-color: #ECF1F2;
   width: 500px;
@@ -83,7 +81,8 @@
   height: 20px;
   background-color: #ffeef3;
   position: absolute;
-  left:80px;
+  right:0px;
+  top:0px;
 }  
 
 

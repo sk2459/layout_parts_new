@@ -7,7 +7,7 @@
   table-layout: fixed;
 }
 
-tr:last-child{
+.foodbox:last-child{
   border-top: 2px dashed #000;
 }
 
@@ -27,7 +27,7 @@ td{
   padding: 10px;
 }
 
-tr:nth-child(odd){
+.foodbox:nth-child(2n+1){
   background-color: #ecf1f2;
 }
 

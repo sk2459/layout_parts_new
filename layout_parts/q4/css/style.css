@@ -7,11 +7,6 @@
   
 }
 
-.top-box{
-  display: table;
-  width: 100%;
-}
-
 .top-block{
   text-align: center;
   padding: 20px;
@@ -27,14 +22,12 @@
   background-color: #e0abd9;
 }
 
-.top-bottombox{
+.top-rightbox{
   background-color: #b6d8ed;
   width: 100px;
 }
 
-
-
-.under-box{
+.bigbox{
   display: table;
   margin-top: 20px;
   width: 100%;
@@ -57,6 +50,10 @@
 .under-rightbox{
   background-color: #8fdcad;
   width: 500px;
+}
+
+.bigbox:first-child{
+  margin-top: 0;
 }
 
 /* 回答はここに書いてね */

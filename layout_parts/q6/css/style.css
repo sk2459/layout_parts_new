@@ -33,7 +33,7 @@
 .text{
   background-color: #fff;
   padding: 10px;
-  display: inline;
+  display:inline-block;
 }
 
 .flexbox{
@@ -47,7 +47,7 @@
   background-color: #fff;
 }
 
-.big_position_box{
+.b_box{
   position: relative;
 }
 

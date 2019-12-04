@@ -8,17 +8,23 @@
   clear: both;
 }
 
-.q1{
+.q1_box{
   width: 940px;
   background-color: #eff3f4;
   margin: 0 auto;
+  padding: 20px;
 }
 
 .inbox{
   background-color: #3274ae;
   padding: 20px;
   float: left;
-  margin: 20px 0 20px 20px;
+  /* margin: 20px 0 20px 20px; */
+  margin-left: 20px;
+}
+
+.inbox:first-child{
+  margin-left: 0;
 }
 
 .inbluebox{
