@@ -1,5 +1,33 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.text{
+  margin: 0 auto;
+  width: 550px;
+  border: solid 5px #222;
+  border-radius: 30px;
+}
 
+.text_box{
+  padding: 20px;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.text::after{
+  content:"";
+  width: 30px;
+  height: 30px;
+  border-right: solid 5px #222;
+  border-bottom: solid 5px #222;;
+  position: absolute;
+  left:200px;
+  top:331px;
+  box-sizing: border-box;
+  background-color: #fff;
+}  
+
+.text::after{
+  transform:rotate(45deg)
+}
 /* 回答はここに書いてね */

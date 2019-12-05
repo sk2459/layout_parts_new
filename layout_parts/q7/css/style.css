@@ -2,4 +2,82 @@
 
 /* 回答はここに書いてね */
 
-/* 回答はここに書いてね */
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.sbox:first-child{
+  margin-left: 0;
+}
+
+.sbox{
+  float: left;
+  width: 225px;
+  box-sizing: border-box;
+  margin-left: 50px;
+}
+
+.table{
+  display: table;
+}
+
+.table_box{
+  display: table-cell;
+  width: 225px;
+  padding-left: 40px;
+  vertical-align: middle;
+}
+
+.table_box:first-child{
+  padding-left: 0;
+}
+
+.block_box{
+  display: inline-block;
+  vertical-align: middle;
+  width: 225px;
+  box-sizing: border-box;
+  margin: 0 -4px;
+  margin-left: 50px;
+}
+
+.block_box:first-child{
+  margin-left: 0;
+}
+
+.flexbox{
+  display: flex; 
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.inflexbox{
+  width: 225px;
+  box-sizing: border-box;
+} 
+
+.fontsize{
+  font-size: 0;
+}
+
+.imbox{
+  display: inline-block;
+  font-size: 16px;
+}
+
+.left-imbox{
+  width: 300px;
+  box-sizing: border-box;
+  vertical-align: top;
+
+}
+
+.right-imbox{
+  box-sizing: border-box;
+  width: 100%;
+  margin-left: -300px;
+  padding-left: 350px;
+  /* 回答はここに書いてね */
+
