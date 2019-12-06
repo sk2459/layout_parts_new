@@ -1,11 +1,13 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+
 .text{
   margin: 0 auto;
   width: 550px;
   border: solid 5px #222;
   border-radius: 30px;
+  position: relative;
 }
 
 .text_box{
@@ -14,7 +16,7 @@
   line-height: 16px;
 }
 
-.text::after{
+/* .text::after{
   content:"";
   width: 30px;
   height: 30px;
@@ -25,9 +27,27 @@
   top:336px;
   box-sizing: border-box;
   background-color: #fff;
-}  
+}   */
+
+.text::before{
+  content:"";
+  border: 30px solid transparent;
+  border-top: 30px solid #222;
+  position: absolute;
+  bottom: -60px;
+  left: 30px;
+} 
 
 .text::after{
+  content:"";
+  border: 30px solid transparent;
+  border-top: 30px solid #fff;
+  position: absolute;
+  left: 30px;
+  bottom: -53px;
+} 
+
+/* .text::after{
   transform:rotate(45deg)
-}
+} */
 /* 回答はここに書いてね */
